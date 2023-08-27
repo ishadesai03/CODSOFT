@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Lilita+One&family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+}
+nav {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 55px;
+    font-family: 'Bricolage Grotesque', sans-serif;
+    text-shadow: #fff;
+  }
+  nav a:hover {
+    background-color: transparent;
+    color: #e0218a;
+  }
+  .logo img{
+    height: 50px;
+  }
+ .image {
+        background-image: url('C:\\Users\\Isha Desai\\Desktop\\TASK 2\\bg1.jpeg');
+        height: 900px; /* Adjust the height as needed */
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        z-index: -1;
+}
+.overlay{
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 97px;
+    font-family: 'Caprasimo', cursive;
+    font-size: 55px;
+}
+.one{
+    margin-left: 60px;
+}
+.pink{
+    color: #ff68b8;
+}
+.blue{
+    color: #29c5f6;
+}
+nav .button {
+    margin-left: 380px; 
+   
+  }
+.cast{
+    
+    height: 500px;
+    display: flex;
+    background: linear-gradient(to right, #f2b1d9, #f29ccb);
+  
+}
+
+.left-section {
+  flex: 1;
+  width: 500px;
+  height: 281px;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.right-section {
+  flex: 1;
+  font-family: 'Caprasimo', cursive;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  color: #fff;
+}
+.left-section1 {
+  flex: 1;
+}
+.left-section1 img {
+  height: 300px;
+  border: 5px solid #fff;
+  margin-top: 23px;
+}
+.cast1{
+  display: flex;
+}
+button{
+  background-color: #ff68b8; 
+    color: white; 
+    border: none; 
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.button:hover {
+  transform: translateY(2px) scale(1.05);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.image-section{
+  height: 360px;
+  background-color: #29c5f6;
+  margin-top: 15px;
+  width: 100%;
+  overflow-x: auto; 
+  white-space: nowrap;
+}
+.caption {
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: #fff; 
+  padding: 5px;
+  margin: 0;
+  font-size: 20px;
+}
+.image-row img {
+  height: 270px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 5px solid #fff;
+  display: inline-block;
+}
+.image-row {
+  display: flex;
+}
+.release{
+  height: 41px;
+  background-color: #e0218a;
+  margin-top: 0%;
+}
+.release p{
+  color: #fff;
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.background-section {
+  position: relative;
+  background-image: url('C:\\Users\\Isha Desai\\Desktop\\TASK 2\\bg5.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-container {
+  background-color: rgba(255, 255, 255, 0.6); 
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+.form-container p {
+  margin-bottom: 20px;
+  font-family: 'Caprasimo', cursive;
+  color: #fff;
+  font-size: 25px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Bricolage Grotesque', sans-serif;
+  color: #fff;
+}
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+input[type="submit"] {
+  background-color: #e0218a;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
